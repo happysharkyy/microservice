@@ -7,8 +7,8 @@ from thrift.server import TServer
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-sender = 'imoocd@163.com'
-authCode = 'aA111111'
+sender = '1517762555@qq.com'
+authCode = 'ewwioboalzspfhcc'
 
 class MessageServiceHandler:
 
@@ -22,9 +22,9 @@ class MessageServiceHandler:
         messageObj = MIMEText(message,"plain","utf-8")
         messageObj['From'] =sender
         messageObj['To'] = email
-        messageObj['Subject'] = Header('慕课网邮件','utf-8')
+        messageObj['Subject'] = Header('qq邮件','utf-8')
         try:
-            smtpObj = smtplib.SMTP('smtp.163.com')
+            smtpObj = smtplib.SMTP_SSL('smtp.qq.com',465)
             smtpObj.login(sender,authCode)
             smtpObj.sendmail(sender,[email],messageObj.as_string())
             print("send mail success")
@@ -33,12 +33,10 @@ class MessageServiceHandler:
             print("send mail fail")
             print(ex)
             return False
-
-
 if __name__ == '__main__':
     handler = MessageServiceHandler()
     processor = MessageService.Processor(handler)
-    transport = TSocket.TServerSocket("localhost","9090")
+    transport = TSocket.TServerSocket("127.0.0.1","9090")
     tfactory = TTransport.TFramedTransportFactory()
     pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 
