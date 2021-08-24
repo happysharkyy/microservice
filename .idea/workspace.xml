@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="user-thrift-service:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8c2e3e2-86a8-49d1-a94e-c74883565d87" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,57 +43,88 @@
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-edge-service/src/main/resources/templates" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/imooc/course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/imooc/course/service" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="project.structure.side.proportion" value="0.24760383" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\microservice\course-dubbo-service\src\main\resources" />
       <recent name="D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.course" />
       <recent name="com.imooc.thrift.user.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\microservice\course-dubbo-service\src\main\java\com\imooc\course\service" />
+      <recent name="D:\ideaProject\microservice\course-dubbo-service-api\src\main\resources" />
       <recent name="D:\ideaProject\microservice\user-edge-service\src\main\resources\templates" />
       <recent name="D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.user-thrift-service">
-    <configuration name="message_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="message-thrift-python-service" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/message-thrift-python-service/message" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    <configuration name="api-gateway-zuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="api-gateway-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.zuul.ServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="course-dubbo-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="course-dubbo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.course.ServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="course-edge-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="course-edge-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.course.ServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="user-edge-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="user-edge-service" />
@@ -104,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="user-thrift-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+    <configuration name="user-thrift-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-thrift-service" />
       <extension name="coverage">
         <pattern>
@@ -113,22 +149,25 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.user.ServiceApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="E:\jdk\jre" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.message_service" />
       <item itemvalue="Spring Boot.user-thrift-service" />
       <item itemvalue="Spring Boot.user-edge-service" />
+      <item itemvalue="Spring Boot.course-dubbo-service" />
+      <item itemvalue="Spring Boot.course-edge-service" />
+      <item itemvalue="Spring Boot.api-gateway-zuul" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.api-gateway-zuul" />
+        <item itemvalue="Spring Boot.course-edge-service" />
+        <item itemvalue="Spring Boot.course-dubbo-service" />
         <item itemvalue="Spring Boot.user-edge-service" />
-        <item itemvalue="Python.message_service" />
-        <item itemvalue="Spring Boot.user-thrift-service" />
-        <item itemvalue="Spring Boot.ServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +184,8 @@
       <workItem from="1629425406198" duration="1666000" />
       <workItem from="1629431594497" duration="1922000" />
       <workItem from="1629439191171" duration="6560000" />
-      <workItem from="1629680218412" duration="26355000" />
+      <workItem from="1629680218412" duration="57408000" />
+      <workItem from="1629804872954" duration="325000" />
     </task>
     <servers />
   </component>
@@ -153,14 +193,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="197" key="#Project_Structure" timestamp="1629707034724">
+    <state x="1029" y="197" key="#Project_Structure" timestamp="1629787975748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="197" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1629707034724" />
-    <state x="679" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629699014627">
+    <state x="1029" y="197" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1629787975748" />
+    <state x="828" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629795740286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629699014627" />
+    <state x="828" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629795740286" />
     <state x="1159" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629683630287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,10 +209,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1118" y="234" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629682713282" />
-    <state x="1215" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1629698655067">
+    <state x="1215" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1629771552332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1215" y="284" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629698655067" />
+    <state x="1215" y="284" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629771552332" />
+    <state x="949" y="396" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1629801819173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="949" y="396" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629801819173" />
+    <state x="844" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1629767573954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="844" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629767573954" />
     <state x="1072" y="290" key="EnvironmentVariablesDialog" timestamp="1629682745164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,82 +229,94 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1203" y="304" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629706756206" />
-    <state width="978" height="151" key="GridCell.Tab.0.bottom" timestamp="1629723469867">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1629804741638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1880" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="978" height="151" key="GridCell.Tab.0.center" timestamp="1629723469866">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1629804741638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1880" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="978" height="151" key="GridCell.Tab.0.left" timestamp="1629723469866">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1629804741638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1880" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238503" />
-    <state width="978" height="151" key="GridCell.Tab.0.right" timestamp="1629723469866">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1629804741638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1880" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="978" height="151" key="GridCell.Tab.1.bottom" timestamp="1629723469867">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
+    <state width="1880" height="421" key="GridCell.Tab.1.bottom" timestamp="1629804741635">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1880" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="978" height="151" key="GridCell.Tab.1.center" timestamp="1629723469867">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1880" height="421" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741635" />
+    <state width="1880" height="421" key="GridCell.Tab.1.center" timestamp="1629804741635">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1880" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="978" height="151" key="GridCell.Tab.1.left" timestamp="1629723469867">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1880" height="421" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741635" />
+    <state width="1880" height="421" key="GridCell.Tab.1.left" timestamp="1629804741635">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1880" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="978" height="151" key="GridCell.Tab.1.right" timestamp="1629723469867">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state width="1880" height="421" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741635" />
+    <state width="1880" height="421" key="GridCell.Tab.1.right" timestamp="1629804741635">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1880" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="1880" height="340" key="GridCell.Tab.2.bottom" timestamp="1629705403763">
+    <state width="1880" height="421" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741635" />
+    <state width="1877" height="286" key="GridCell.Tab.2.bottom" timestamp="1629804737638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="340" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629705403763" />
-    <state width="1880" height="340" key="GridCell.Tab.2.center" timestamp="1629705403763">
+    <state width="1877" height="286" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629804737638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.center" timestamp="1629804737638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="340" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629705403763" />
-    <state width="1880" height="340" key="GridCell.Tab.2.left" timestamp="1629705403763">
+    <state width="1877" height="286" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629804737638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.left" timestamp="1629804737638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="340" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629705403763" />
-    <state width="1880" height="340" key="GridCell.Tab.2.right" timestamp="1629705403763">
+    <state width="1877" height="286" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629804737638" />
+    <state width="1877" height="286" key="GridCell.Tab.2.right" timestamp="1629804737638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1880" height="340" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629705403763" />
+    <state width="1877" height="286" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629804737638" />
     <state x="490" y="177" key="Maven.ArtifactSearchDialog" timestamp="1629706151191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="177" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629706151191" />
-    <state x="880" y="263" key="SettingsEditor" timestamp="1629684020970">
+    <state x="399" y="186" width="1490" height="846" key="SettingsEditor" timestamp="1629802450438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="263" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629684020970" />
-    <state x="1165" y="506" key="chooseDestDirectoryDialog" timestamp="1629680666399">
+    <state x="399" y="186" width="1490" height="846" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629802450438" />
+    <state x="1165" y="506" key="chooseDestDirectoryDialog" timestamp="1629767590746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1165" y="506" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629680666399" />
-    <state x="1135" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1629680226512">
+    <state x="1165" y="506" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629767590746" />
+    <state x="1135" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1629804876159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1135" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629680226512" />
-    <state x="564" y="358" key="new project wizard" timestamp="1629708871172">
+    <state x="1135" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629804876159" />
+    <state x="710" y="112" width="759" height="822" key="find.popup" timestamp="1629805194935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="358" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1629708871172" />
+    <state x="710" y="112" width="759" height="822" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629805194935" />
+    <state x="649" y="434" key="new project wizard" timestamp="1629790052979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="434" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1629790052979" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1629804245544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629804245544" />
+    <state x="1103" y="230" key="search.everywhere.popup" timestamp="1629784912321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629784912321" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -266,10 +326,15 @@
           <line>141</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/course-edge-service/src/main/java/com/imooc/course/controller/CourseController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/microservice$message_service.coverage" NAME="message_service Coverage Results" MODIFIED="1629708736272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message" />
+    <SUITE FILE_PATH="coverage/microservice$message_service.coverage" NAME="message_service Coverage Results" MODIFIED="1629799763836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message" />
   </component>
 </project>
