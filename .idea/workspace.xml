@@ -46,7 +46,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/mksz198 - Docker+Kubernetes(k8s)微服务容器化实践/project(更多IT教程 微信634631778)/a34cgb/microservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-edge-service/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,6 +63,7 @@
       <recent name="com.imooc.thrift.user.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\microservice\user-edge-service\src\main\resources\templates" />
       <recent name="D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis" />
     </key>
   </component>
@@ -124,8 +125,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.message_service" />
         <item itemvalue="Spring Boot.user-edge-service" />
+        <item itemvalue="Python.message_service" />
         <item itemvalue="Spring Boot.user-thrift-service" />
         <item itemvalue="Spring Boot.ServiceApplication" />
       </list>
@@ -144,7 +145,7 @@
       <workItem from="1629425406198" duration="1666000" />
       <workItem from="1629431594497" duration="1922000" />
       <workItem from="1629439191171" duration="6560000" />
-      <workItem from="1629680218412" duration="21214000" />
+      <workItem from="1629680218412" duration="26355000" />
     </task>
     <servers />
   </component>
@@ -180,37 +181,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1203" y="304" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629706756206" />
-    <state width="1880" height="310" key="GridCell.Tab.0.bottom" timestamp="1629709238504">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.0.bottom" timestamp="1629723469867">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
     <state width="1880" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="1880" height="310" key="GridCell.Tab.0.center" timestamp="1629709238504">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.0.center" timestamp="1629723469866">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
     <state width="1880" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="1880" height="310" key="GridCell.Tab.0.left" timestamp="1629709238503">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.0.left" timestamp="1629723469866">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
     <state width="1880" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238503" />
-    <state width="1880" height="310" key="GridCell.Tab.0.right" timestamp="1629709238504">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.0.right" timestamp="1629723469866">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
     <state width="1880" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629709238504" />
-    <state width="1880" height="310" key="GridCell.Tab.1.bottom" timestamp="1629708740916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.1.bottom" timestamp="1629723469867">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
     <state width="1880" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="1880" height="310" key="GridCell.Tab.1.center" timestamp="1629708740916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.1.center" timestamp="1629723469867">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
     <state width="1880" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="1880" height="310" key="GridCell.Tab.1.left" timestamp="1629708740916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.1.left" timestamp="1629723469867">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
     <state width="1880" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
-    <state width="1880" height="310" key="GridCell.Tab.1.right" timestamp="1629708740916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="978" height="151" key="GridCell.Tab.1.right" timestamp="1629723469867">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="978" height="151" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
     <state width="1880" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629708740916" />
     <state width="1880" height="340" key="GridCell.Tab.2.bottom" timestamp="1629705403763">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -254,7 +263,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/controller/UserController.java</url>
-          <line>130</line>
+          <line>141</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

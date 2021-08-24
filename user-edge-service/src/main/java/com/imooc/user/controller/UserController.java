@@ -12,21 +12,28 @@ import org.apache.tomcat.util.buf.HexUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 @Controller
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private ServiceProvider serviceProvider;
     @Autowired
     private RedisClient redisClient;
+
+
+
+    @RequestMapping(value="/authentication", method = RequestMethod.POST)
+    @ResponseBody
+    public UserDTO authentication(@RequestHeader("token") String token) {
+        return redisClient.get(token);
+    }
+
 
     @RequestMapping(value = "/getResult",method = RequestMethod.GET)
     @ResponseBody
@@ -100,6 +107,10 @@ public class UserController {
         }
         return Response.SUCCESS;
 
+    }
+    @RequestMapping(value="/login", method = RequestMethod.GET)
+    public String login() {
+        return "login";
     }
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     @ResponseBody

@@ -33,9 +33,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.codehaus</groupId>
-            <artifactId>jackson-all</artifactId>
-            <version>1.7.6</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.56</version>
         </dependency>
 
         <dependency>

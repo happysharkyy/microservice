@@ -1,5 +1,7 @@
 package com.imooc.user.client;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.imooc.thrift.user.dto.UserDTO;
@@ -9,7 +11,6 @@ import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.codehaus.jackson.map.ObjectMapper;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -67,7 +68,7 @@ public abstract class LoginFilter implements Filter {
         }
 
         if(userDTO==null) {
-            response.sendRedirect("http://www.mooc.com/user/login");
+            response.sendRedirect("http://127.0.0.1/user/login");
             return;
         }
 
@@ -100,7 +101,7 @@ public abstract class LoginFilter implements Filter {
                 sb.append(new String(temp,0,len));
             }
 
-            UserDTO userDTO = new ObjectMapper().readValue(sb.toString(), UserDTO.class);
+            UserDTO userDTO = (UserDTO)JSONObject.toJavaObject(JSONObject.parseObject(sb.toString()), UserDTO.class);
             return userDTO;
         } catch (IOException e) {
             e.printStackTrace();
