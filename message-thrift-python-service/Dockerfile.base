@@ -1,0 +1,4 @@
+FROM python:latest
+MAINTAINER xxx xxx@imooc.com
+
+RUN pip install thrift

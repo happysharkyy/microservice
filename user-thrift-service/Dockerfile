@@ -1,7 +1,6 @@
 FROM java:latest
 MAINTAINER xxx xxx@imooc.com
 
+COPY target/user-thrift-service-1.0-SNAPSHOT.jar /user-thrift-service.jar
 
-COPY /user-thrift-service.jar /microservice/user-service.jar
-
-ENTRYPOINT ["java" ,"-jar", "/user-service"]
+ENTRYPOINT ["java", "-jar", "/user-thrift-service.jar"]

@@ -1,0 +1,9 @@
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\controller\UserController.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\ServiceApplication.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\thrift\ServiceProvider.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis\JedisConfigution.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis\RedisClient.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis\RedisConfig.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\dto\UserDTO.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\response\Response.java
+D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\response\LoginResponse.java

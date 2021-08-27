@@ -12,6 +12,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -53,8 +67,8 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/imooc/course" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/imooc/course/service" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-gateway-zuul" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24760383" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -63,24 +77,29 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProject\microservice\course-dubbo-service\src\main\resources" />
-      <recent name="D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\microservice\api-gateway-zuul" />
+      <recent name="D:\ideaProject\microservice\course-edge-service" />
+      <recent name="D:\ideaProject\microservice\course-dubbo-service" />
+      <recent name="D:\ideaProject\microservice\user-edge-service" />
+      <recent name="D:\ideaProject\microservice\message-thrift-python-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.course" />
       <recent name="com.imooc.thrift.user.dto" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProject\microservice\course-dubbo-service\src\main\java\com\imooc\course\service" />
-      <recent name="D:\ideaProject\microservice\course-dubbo-service-api\src\main\resources" />
-      <recent name="D:\ideaProject\microservice\user-edge-service\src\main\resources\templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\microservice\user-edge-service" />
+      <recent name="D:\ideaProject\microservice\user-thrift-service" />
+      <recent name="D:\ideaProject\microservice\message-thrift-python-service" />
+      <recent name="D:\ideaProject\microservice\course-dubbo-service\src\main\resources" />
       <recent name="D:\ideaProject\microservice\user-edge-service\src\main\java\com\imooc\user\redis" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
+      <command value="mvn install:help" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.user-thrift-service">
@@ -185,7 +204,8 @@
       <workItem from="1629431594497" duration="1922000" />
       <workItem from="1629439191171" duration="6560000" />
       <workItem from="1629680218412" duration="57408000" />
-      <workItem from="1629804872954" duration="325000" />
+      <workItem from="1629804872954" duration="1877000" />
+      <workItem from="1629806802438" duration="22924000" />
     </task>
     <servers />
   </component>
@@ -193,10 +213,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="197" key="#Project_Structure" timestamp="1629787975748">
+    <state x="1029" y="197" key="#Project_Structure" timestamp="1629808125591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="197" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1629787975748" />
+    <state x="1029" y="197" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1629808125591" />
     <state x="828" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629795740286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,26 +249,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1203" y="304" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629706756206" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1629804741638">
+    <state width="1880" height="264" key="GridCell.Tab.0.bottom" timestamp="1629883637220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1629723469867" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1629804741638">
+    <state width="1880" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629883637220" />
+    <state width="1880" height="264" key="GridCell.Tab.0.center" timestamp="1629883637220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1629804741638">
+    <state width="1880" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629883637220" />
+    <state width="1880" height="264" key="GridCell.Tab.0.left" timestamp="1629883637220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1629804741638">
+    <state width="1880" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629883637220" />
+    <state width="1880" height="264" key="GridCell.Tab.0.right" timestamp="1629883637220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="978" height="151" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1629723469866" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629804741638" />
+    <state width="1880" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629883637220" />
     <state width="1880" height="421" key="GridCell.Tab.1.bottom" timestamp="1629804741635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,18 +321,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1135" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629804876159" />
-    <state x="710" y="112" width="759" height="822" key="find.popup" timestamp="1629805194935">
+    <state x="710" y="112" width="759" height="822" key="find.popup" timestamp="1629881742380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="112" width="759" height="822" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629805194935" />
+    <state x="710" y="112" width="759" height="822" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629881742380" />
     <state x="649" y="434" key="new project wizard" timestamp="1629790052979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="649" y="434" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1629790052979" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1629804245544">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1629883596045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629804245544" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1629883596045" />
     <state x="1103" y="230" key="search.everywhere.popup" timestamp="1629784912321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -321,11 +341,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/controller/UserController.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/course-edge-service/src/main/java/com/imooc/course/controller/CourseController.java</url>
           <line>31</line>

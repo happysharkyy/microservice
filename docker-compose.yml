@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  message-service:
+    image: message-service:latest
+
+  user-thrift-serivce:
+    image: user-thrift-service:latest
+
+  user-edge-service:
+    image: user-edge-service:latest
+    links:
+      - user-thrift-service
+      - message-service
+
+  course-dubbo-service:
+    image: course-dubbo-service:latest
+    links:
+      - user-thrift-service
+
+  course-edge-service:
+    image: course-edge-service:latest
+    links:
+      - user-edge-service
+
+
+  api-gateway-zuul:
+    image: api-gateway-zuul:latest
+    links:
+      - course-edge-service
+      - user-edge-service
+    ports:
+      - 8084:8084
